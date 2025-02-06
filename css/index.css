@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+}
+
+
+body{
+    background-color: wheat;
+}
+
+
+
+.bandeau{
+    background-color: #135d3c;
+    height: 20vh;
+    display: flex;
+}
+
+
+.logo{
+    justify-content: left;
+    display: flex;
+    width: 33%;
+    padding-top: 20px;
+    height: 150px;
+
+}
+
+img.logot{
+    transition: transform 2s ease;
+}
+
+img.logot:hover{
+    opacity: 0.8;
+    transform: rotateY(360deg);
+}
+
+
+.titre{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 33%;
+    color: wheat;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family:  Brush Script MT, Brush Script Std, cursiv;
+}
+
+
+.menu{
+    display: flex;
+    width: 33%;
+    justify-content: right;
+    align-items: top;
+    
+    
+}
+
+nav{
+    display: flex;
+}
+ul {
+    /* display: flex;  ca me permet de mettre les elements en dessous*/
+
+}
+
+ul li{
+    list-style-type: none;
+    margin:5px;
+    text-decoration: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: wheat;
+    font-family:  Brush Script MT, Brush Script Std, cursiv;
+    font-size: 30px;
+    
+}
+
+.crown{
+    height: 3vh;
+}
+
+
+
+img.crown:hover{
+   transform: scale(1.2);
+}
+
+.msg{
+    height: 3vh;
+}
+
+img.msg:hover{
+    transform: scale(1.2);
+}
+
+.boutique{
+    height: 4vh;
+}
+img.boutique:hover{
+    transform: scale(1.2);
+}
+
+
+.background{
+    display: flex;
+}
+
+
+
+.testa{
+    display: flex;
+    justify-content: center;
+        
+}
+
+.img1{
+    padding-left: 10px;
+    margin: 10px;
+    display: flex;
+    height: 730px;
+    align-items: center;
+
+    
+}
+
+img.change{
+    transition: transform 1s ease;
+
+    padding-left: 10px;
+    margin: 10px;
+    display: flex;
+    width: 100%; 
+    height: 735px;
+    align-items: center;
+
+}
+
+img.change:hover{
+    opacity: 0.9;
+    transform: scale(1.015);
+}
+
+
+
+
+.img2{
+    margin: 10px;
+    display: flex;
+    height: 735px;
+    align-items: center;
+
+}
+
+
+.img3{
+    margin: 10px;
+    margin-left: 2px;
+    display: flex; 
+    height: 720px;   
+    align-items: center;
+
+}
+
+
+
+.click1{
+    display: flex;
+    align-items: end ;
+    justify-content: right;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    color: wheat;
+    /* text-decoration: none; */
+    font-size: 30px;
+    width: 100%;
+    font-family: Brush Script MT, Brush Script Std, cursiv;
+
+}
+
+
+.click2{
+    display: flex;
+    align-items: end ;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    justify-content: right;
+    color: #596643;
+    /* text-decoration: none; */
+    font-size: 30px;
+    width: 100%;
+    font-family: Brush Script MT, Brush Script Std, cursiv;
+}
+
+
+

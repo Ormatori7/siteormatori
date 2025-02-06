@@ -1,0 +1,56 @@
+body{
+    background-color: wheat;
+}
+
+
+form{
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    height: 30px;
+    border-radius: 10px;
+    
+}
+
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+
+
+.acceuil{
+    text-decoration: none;
+    color: rgb(5, 110, 5);
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.lignephoto{
+    justify-content: center;
+    height: 200px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.identifiant{
+    justify-content: center;
+    display: flex;
+}
+
+
+.Connexion{
+    color: #135d3c;
+}
+
+
+.boxbouton{
+    display: flex;
+    justify-content: center;
+    height: 50px;   
+}
